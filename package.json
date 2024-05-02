@@ -1,0 +1,14 @@
+{
+	"name": "com.ellyality.ui.two_image_blend",
+	"displayName":"Two Image Blend",
+	"version": "1.0.0",
+    "author": "Elly Utility",
+    "unity": "2019.2",
+    "keywords": ["utility", "image", "blend"],
+    "category": "engineering",
+    "license": "LICENSE",
+	"description": "Two image quick blend effect",
+    "documentationUrl": "https://github.com/Ellyality/package_two_image_blend/blob/main/README.md",
+    "dependencies": {
+    }
+}
