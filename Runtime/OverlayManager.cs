@@ -15,7 +15,7 @@ namespace Ellyality
     [AddComponentMenu("Ellyality/UI/Fast Two Image Blend")]
     public class OverlayManager : MonoBehaviour
     {
-        enum Dir
+        public enum Dir
         {
             LeftToRight, RightToLeft, UpToDown, DownToUp
         }
