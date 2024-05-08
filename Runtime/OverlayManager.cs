@@ -9,6 +9,7 @@ namespace Ellyality
     {
         public string file1;
         public string file2;
+		public OverlayManager.Dir mode;
     }
 
     [AddComponentMenu("Ellyality/UI/Fast Two Image Blend")]
@@ -25,8 +26,6 @@ namespace Ellyality
         [Header("Setting")]
         [SerializeField] bool LoadFromFile;
         [SerializeField] string ConfigFileName;
-        [SerializeField] Dir direction;
-        [SerializeField] 
 
         Config config;
         float scrollValue;
@@ -57,7 +56,7 @@ namespace Ellyality
 
             if (hasClick)
             {
-                switch (direction)
+                switch (config.mode)
                 {
                     case Dir.LeftToRight:
                         scrollValue = (float)clickPos.x / (float)Screen.width;
